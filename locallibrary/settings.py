@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '(22q^!&2+6wzz1s(j*^5@j3cy5y+(c
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['murmuring-spire-26317.herokuapp.com','127.0.0.1']
 
 
 # Application definition
